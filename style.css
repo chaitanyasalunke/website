@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(135, 233, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 200vh;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(90, 173, 114);
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    box-shadow: 0 35px 55px rgb(90, 173, 114);
+}
+
+.container .left_Side {
+    position: relative;
+    background: rgb(143, 248, 243);
+    padding: 5px;
+}
+
+.Profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.Profiletext .imgBx {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Profiletext .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100;
+    object-fit: cover;
+}
+
+.Profiletext h2 {
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.Profiletext span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.ContactInfo {
+    padding-top: 40px;
+}
+
+.tital {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.ContactInformation ul {
+    position: relative;
+}
+
+.ContactInformation ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ContactInformation ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(249, 9, 9);
+}
+
+
+
+.container .right_Side {
+    position: relative;
+    background: rgb(240, 242, 242);
+    padding: 10px;
+}
